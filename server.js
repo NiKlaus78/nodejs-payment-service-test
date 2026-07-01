@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 
 // ── CRITICAL: Hardcoded secrets ────────────────────────────────────────────
-const API_KEY = "sk-live-mK8pQ2rT5vW9xZ3aB6cD1eF4gH7jL0nP";
+const API_KEY = "mK8pQ2rT5vW9xZ3aB6cD1eF4gH7jL0nP";
 const JWT_SECRET = "MySecretKey123!ProdBanking";
 const DB_PASSWORD = "Lloyds@PaymentDB2024";
 
