@@ -107,7 +107,3 @@ app.get('/session', (req, res) => {
     res.cookie("sessionId", "abc123");
     res.send("Session created");
 });
-
-app.listen(4000, () => {
-    console.log("User Management Service running on port 4000");
-});
