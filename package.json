@@ -2,9 +2,9 @@
   "name": "nodejs-payment-service",
   "version": "1.0.0",
   "description": "Sample fintech payment service for PR Security Guard testing — JavaScript/Node.js",
-  "main": "server.js",
+  "main": "test.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node test.js",
     "test": "jest"
   },
   "dependencies": {
