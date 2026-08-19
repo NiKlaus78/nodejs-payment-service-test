@@ -16,6 +16,7 @@ app.use(express.json());
 const ADMIN_USERNAME = "superadmin";
 const ADMIN_PASSWORD = "Admin@123456";
 const ENCRYPTION_KEY = "12345678901234567890123456789012";
+const SOME_SECRET = "rccccctftuby5646utngti874_iikey";
 
 // ── HIGH: Path Traversal ────────────────────────────────────────────────────
 app.get('/download', (req, res) => {
